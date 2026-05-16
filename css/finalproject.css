@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+			html {
+				background-image: url(../images/background.png);
+
+			}
+			html:hover {
+        cursor: url(../images/Rainbow.cur), auto;
+      }
+
+
+			body {
+				width: 960px;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 30px;
+				background-color: #daebba;
+				text-align: center;
+				padding-bottom: 15px;
+				box-shadow: #005054 0px 0px 20px;
+				border-radius: 35px;
+			}
+
+			a {
+		      	color: #000;
+			    font-size: 18px;
+					padding: 3px;
+					border-radius: 3px;
+
+			}
+
+			article {
+
+				padding: 0px 100px 0px 100px;
+			}
+
+
+			h1 {
+				font-size: 36px;
+				color: #000
+			}
+
+			h2 {
+				font-size: 16px;
+				color: #666
+			}
+
+			p {
+				font-size: 15px;
+				color: #000
+			}
+
+			nav {
+				margin: 25px;
+			}
+			a:hover {
+				background-color: white;
+				color: #8b004a;
+
+			}
+
+			p, a {
+			  font-family: "Exo", sans-serif;
+			  font-optical-sizing: auto;
+			  font-weight: <weight>;
+			  font-style: normal;
+			}
+			h1, h2 {
+				font-family: "Chango", sans-serif;
+ 				font-weight: 400;
+ 				font-style: normal;
+				color: #8b004a;
+			}
+
+			.banner {
+				border-top-left-radius: 35px;
+				border-top-right-radius: 35px;
+				filter: drop-shadow(0px 6px 8px #005054);
+			}
+
+			.content {
+				width: 400px;
+				background-color: teal;
+				border-radius: 10px;
+				border: double yellowgreen 10px;
+			}
+
+			header {
+				/*filter: drop-shadow(0px 6px 8px #005054);*/
+			}
